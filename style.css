@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(gainsboro,aquamarine);
+    margin: 0;
+}
+h1{
+    font-weight: 900;
+    font-style: bold;
+}
+h2{
+    font-weight:700;
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 15%;
+}
+.highlighted-color{
+    color: orchid;
+}
+.half-width{
+    width:50%;
+    padding-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.half-width img{
+    width:50%;
+}
+.link-button{
+    text-align: center;
+    text-decoration: none;
+    font-weight:700;
+    color: white;
+    background-image: linear-gradient(coral, salmon);
+    border-radius: 15px;
+    padding: 4px 16px;
+}
+.flexible-container{
+    display:flex;
+}
+.top-banner{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle-banner{
+    background-image: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+}
+.text-handling{
+    font-size:20px;
+    text-align:center;
+    padding-left: 15%;
+}
+.paragraph-handling{
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.recipe-class{
+    box-shadow: 20px 20px 50px lightcyan;
+    width:50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    display: block;
+}
+.recipe-class img{
+    width: 100%;
+    margin-bottom: 4px;
+    border-radius: 25px;
+}
+.recipe-area{
+    background-image: linear-gradient(aquamarine,gainsboro);
+}
+.card{
+    box-shadow: 10px 10px 30px lightcoral;
+    width:20%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 2px;
+}
+.last-section{
+    background-image: linear-gradient(lightcoral,lavender);
+}
+.footer-class{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background-color:dimgray;
+    padding: 1%;
+}
