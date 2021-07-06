@@ -3,6 +3,64 @@ body{
     background-color:gainsboro;
     margin: 0;
 }
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gainsboro;
+    background-size: cover;
+    display: flex;
+  }
+
+  li {
+    text-align:center;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: lavenderblush;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lemonchiffon;
+    min-width: 160px;
+    box-shadow: 5px 8px 16px lightsalmon;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 h1{
     font-weight: 900;
     font-style: bold;
@@ -37,8 +95,8 @@ p{
     text-decoration: none;
     font-weight:700;
     color: white;
-    background-image: linear-gradient(coral, salmon);
-    box-shadow: 10px 10px 20px lightsalmon;
+    background-image: linear-gradient(coral, hsl(61, 100%, 74%));
+    box-shadow: 5px 5px 10px lightsalmon;
     border-radius: 15px;
     padding: 4px 16px;
 }
