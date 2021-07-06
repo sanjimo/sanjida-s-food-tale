@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(gainsboro,aquamarine);
+    background-color:gainsboro;
     margin: 0;
 }
 h1{
@@ -38,6 +38,7 @@ p{
     font-weight:700;
     color: white;
     background-image: linear-gradient(coral, salmon);
+    box-shadow: 10px 10px 20px lightsalmon;
     border-radius: 15px;
     padding: 4px 16px;
 }
@@ -54,6 +55,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:left;
+    margin: 0%;
 }
 .text-handling{
     font-size:20px;
@@ -83,7 +85,9 @@ p{
     border-radius: 25px;
 }
 .recipe-area{
-    background-image: linear-gradient(aquamarine,gainsboro);
+    background-image: linear-gradient(gainsboro,lavender);
+    background-size: cover;
+    margin:0%;
 }
 .card{
     box-shadow: 10px 10px 30px lavenderblush;
@@ -102,12 +106,12 @@ p{
     margin-bottom: 2px;
 }
 .last-section{
-    background-image: linear-gradient(lightcoral,lavender);
+    background-image: linear-gradient(lightsteelblue,gainsboro);
 }
 .footer-class{
     text-align: center;
     font-size: 15px;
-    color: black;
-    background-color:dimgray;
-    padding: 1%;
+    color: lemonchiffon;
+    background-color:black;
+    padding-top: 1%;
 }
