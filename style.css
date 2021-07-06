@@ -86,13 +86,13 @@ p{
     background-image: linear-gradient(aquamarine,gainsboro);
 }
 .card{
-    box-shadow: 10px 10px 30px lightcoral;
+    box-shadow: 10px 10px 30px lavenderblush;
     width:20%;
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 10%;
-    padding-bottom: 5px;
-    margin-bottom: 5%;
+    margin-top: 6%;
+    padding-bottom: 2%;
+    margin-bottom: 6%;
     border-radius: 15px;
     text-align: center;
 }
